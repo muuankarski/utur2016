@@ -8,26 +8,24 @@ output:
     code_folding: show
 ---
 
-# Usein kysytyt kysymykset
-
-## Sähköpostipolitiikka
+# Sähköpostipolitiikka
 
 >Voiko opettajalta kysyä sähköpostilla apua?
 
 Ei
 
-## Ennakkovaatimukset
+# Ennakkovaatimukset
 
 >Pitääkö minun osata R:ää ennen kurssille tulemista
 
 
-## Kurssin suorittaminen
+# Kurssin suorittaminen
 
 >Pitääkö minun osallistua jokaiselle luennolle?
 
 Kyllä
 
-## Kotitehtävät
+# Kotitehtävät
 
 > Saako kotitehtäviin etsiä apua netistä?
 

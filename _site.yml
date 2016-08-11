@@ -26,7 +26,7 @@ navbar:
       href: ukk.html
     - text: "Kotitehtävät"
       icon: fa-pencil-square-o
-      href: ukk.html
+      href: kotitehtavat.html
 #    - text: "Videos from useR2016"
 #      icon: fa-file-video-o
 #      href: videos.html
