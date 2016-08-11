@@ -1,0 +1,136 @@
+---
+title: "Datan visualisoiminen ja mallintaminen"
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    number_sections: yes
+    code_folding: show
+---
+
+
+# Ennakkotehtävät
+
+
+## Lue
+
+
+## Katso
+
+
+
+# Visualisoiminen
+
+These packages help you visualize your data.
+
+* [ggplot2](http://docs.ggplot2.org/current/) with [extensions](http://www.ggplot2-exts.org/) - a versatile system for making plots
+    + [ggthemes](https://github.com/jrnold/ggthemes) - plot style themes
+    + [ggmap](https://github.com/dkahle/ggmap) - maps with Google Maps, Open Street Maps, etc.
+    + [ggiraph](http://davidgohel.github.io/ggiraph/introduction.html) - interactive ggplots
+    + [ggstance](https://github.com/lionel-/ggstance) - horizontal versions of common plots
+    + [GGally](https://github.com/ggobi/ggally) - scatterplot matrices
+    + [ggalt](https://github.com/hrbrmstr/ggalt) - additional coordinate systems, geoms, etc.
+    + [ggforce](https://github.com/thomasp85/ggforce) - additional geoms, etc.
+    + [ggrepel](https://github.com/slowkow/ggrepel) - prevent plot labels from overlapping
+    + [ggraph](https://github.com/thomasp85/ggraph) - graphs, networks, trees and more
+    + [ggpmisc](https://cran.rstudio.com/web/packages/ggpmisc/) - photo-biology related extensions
+    + [geomnet](https://github.com/sctyner/geomnet) - network visualization
+    + [ggExtra](https://github.com/daattali/ggExtra) - marginal histograms for a plot
+    + [gganimate](https://github.com/dgrtwo/gganimate) - animations
+    + [plotROC](https://github.com/sachsmc/plotROC) - interactive ROC plots
+    + [ggspectra](https://cran.rstudio.com/web/packages/ggspectra/) - tools for plotting light spectra
+    + [ggnetwork](https://github.com/briatte/ggnetwork) - geoms to plot networks
+    + [ggtech](https://github.com/ricardo-bion/ggtech) - style themes for plots
+    + [ggradar](https://github.com/ricardo-bion/ggradar) - radar charts
+    + [ggTimeSeries](https://github.com/Ather-Energy/ggTimeSeries) - time series visualizations
+    + [ggtree](https://bioconductor.org/packages/release/bioc/html/ggtree.html) - tree visualizations
+    + [ggseas](https://github.com/ellisp/ggseas) - seasonal adjustment tools
+* [lattice](http://lattice.r-forge.r-project.org/) - Trellis graphics
+* [rgl](https://cran.r-project.org/web/packages/rgl/vignettes/rgl.html) - interactive 3D plots
+* [ggvis](http://ggvis.rstudio.com/) - versatile system for interactive graphs
+* [htmlwidgets](http://www.htmlwidgets.org/) - framework for creating JavaScript widgets with R
+    + [leaflet](http://rstudio.github.io/leaflet/) - Interactive maps
+    + [dygraphs](http://rstudio.github.io/dygraphs) - Interactive time series plots
+    + [plotly](https://plot.ly/r/) - Interactive plots
+    + [rbokeh](http://hafen.github.io/rbokeh) - Interactive Bokeh plots
+    + [Highcharter](http://jkunst.com/highcharter/) - Interactive Highcharts plots
+    + [visNetwork](http://dataknowledge.github.io/visNetwork) - Interactive network graphs
+    + [networkD3](http://christophergandrud.github.io/networkD3/) - Interative d3 network graphs
+    + [d3heatmap](https://github.com/rstudio/d3heatmap) - Interactive d3 heatmaps
+    + [DT](http://rstudio.github.io/DT/) - Interactive tables
+    + [threejs](https://github.com/bwlewis/rthreejs) - Interactive 3d plots and globes
+    + [rglwidget](http://cran.at.r-project.org/web/packages/rglwidget/index.html) - Interactive 3d plot
+    + [DiagrammeR](http://rich-iannone.github.io/DiagrammeR/) - Interactive diagrams
+    + [MetricsGraphics](http://hrbrmstr.github.io/metricsgraphics/) - Interactive MetricsGraphics plots
+* [rCharts](http://rcharts.io/) - many interactive JavaScript visualizations
+* [coefplot](http://github.com/jaredlander/coefplot) - visualizes model statistics
+* [quantmod](http://www.quantmod.com/) - candlestick financial charts
+* [colorspace](https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf) - HSL based color palettes
+* [viridis](https://github.com/sjmgarnier/viridis) - Matplotlib viridis color pallete for R
+* [munsell](https://github.com/cwickham/munsell) - Munsell color palettes for R.
+* RColorBrewer - color palettes for plots. No manual or website.
+* dichromat - color-blind friendly palettes. No manual or website.
+* [igraph](http://igraph.org/) - Network Analysis and Visualization
+* [latticeExtra](http://latticeextra.r-forge.r-project.org/) - Extensions for lattice graphics
+* [sp](https://github.com/edzer/sp/) - tools for spatial data
+
+
+# Mallintaminen
+
+## Ennakkotehtävät
+
+
+### Lue
+
+
+### Katso
+
+
+- UseR2016: broom: Converting statistical models to tidy data frames
+<https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/broom-Converting-statistical-models-to-tidy-data-frames>
+- broom <https://github.com/dgrtwo/broom>
+
+
+## Materiaalia
+
+- Frank E Harrell Jr: Regression Modeling Strategies (Joint Statistical Meetings Chicago 2016-07-31) <http://biostat.mc.vanderbilt.edu/tmp/course.pdf>
+
+
+
+
+## Paketteja
+
+- Lucid printing of floating-point vectors
+ <https://rawgit.com/kwstat/lucid/master/vignettes/lucid_printing.html>
+- 
+
+
+## Model/Infer
+These packages help you build models and make inferences. Often the same packages will focus on both topics.
+
+* [car](https://r-forge.r-project.org/projects/car/) - functions from An R Companion to Applied Regression
+* [Hmisc](https://github.com/harrelfe/Hmisc) - miscellaneous functions for data analysis
+* [multcomp](http://multcomp.r-forge.r-project.org/) - Simultaneous Inference in General Parametric Models
+* [pbkrtest](http://people.math.aau.dk/~sorenh/software/pbkrtest/) - parametric bootstrap test for linear mixed effects models 
+* [mvtnorm](http://mvtnorm.r-forge.r-project.org/) - Multivariate Normal and t Distributions
+* [MatrixModels](http://matrix.r-forge.r-project.org/) - Modelling with Sparse And Dense Matrices
+* [SparseM](http://www.econ.uiuc.edu/~roger/research/sparse/sparse.html) - linear algebra for sparse matrices
+* [lme4](https://github.com/lme4/lme4) - Linear Mixed-Effects Models using Eigen C++ library
+* [broom](http://varianceexplained.org/r/broom-intro/) - tools for tidying statistical models into data frames
+* [caret](http://topepo.github.io/caret/index.html) - tools for Classification And REgression Training
+* [glmnet](https://web.stanford.edu/~hastie/glmnet/glmnet_alpha.html) - generalized linear models via penalized maximum likelihood
+* [mosaic](http://mosaic-web.org/) - Tools for teaching mathematics, statistics, computation and modeling
+* [gbm](https://github.com/gbm-developers/gbm) - gradient boosted regression models
+* [xgboost](https://github.com/dmlc/xgboost) - Extreme Gradient Boosting
+* [randomForest](https://www.stat.berkeley.edu/~breiman/RandomForests/) - Random Forests for Classification and Regression
+* [ranger](https://github.com/imbs-hl/ranger) - a fast implementation of Random Forests
+* [h2o](http://www.h2o.ai/) - parallel distributed machine learning algorithms
+* [ROCR](http://rocr.bioinf.mpi-sb.mpg.de/) - plots to visualize classifier performance
+* [pROC](http://web.expasy.org/pROC/) - Tools for visualizing, smoothing and comparing ROC curves
+* [PivotalR](https://github.com/pivotalsoftware/PivotalR) - R wrappers for [MADlib](http://madlib.incubator.apache.org)'s parallel distributed machine learning algorithms
+
+
+
+# Kotitehtävä
+
+

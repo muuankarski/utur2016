@@ -1,0 +1,136 @@
+---
+title: "Johdanto, ohjelmistot ja versiohallinta"
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    number_sections: yes
+    code_folding: show
+---
+
+
+# Ennakkotehtävät
+
+
+## Lue
+
+
+## Katso
+
+- [Open research methods in computational social sciences and humanities: introducing R (Kainu 2014)](https://digihist.se/5-metoder-inom-digital-historia/fordjupning-open-research-methods-in-computational-social-sciences-and-humanities-introducing-r/)
+
+# Miten oppia R
+
+R on vapaa, avoimen lähdekoodin ohjelmisto, jonka 
+
+- <https://www.rstudio.com/online-learning/>
+
+
+
+# Kurssilla käytettävä R-kielen murre eli ns. "Hadleyverse"
+
+
+![](graphics/wickham_cycle.png)
+
+
+
+
+1. [Import](#import) your data into R
+2. [Tidy](#tidy) it
+3. Understand your data by iteratively 
+    a. [visualizing](#visualize)
+    b. [tranforming](#transform) and 
+    c. [modeling](#modelinfer) your data
+4. [Infer](#infer) how your understanding applies to other data sets (_including future data, i.e. predictions_)
+5. [Communicate](#communicate) your results to an audience, or
+6. [Automate](#automate) your analysis for easy reuse
+7. [Program](#program) the whole way through, since you do each of these things on a computer
+
+
+# Kurssin rakenne
+
+
+## Import / tuo
+
+
+R:n perusasennuksessa tulee [joukko datoja](https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/00Index.html) mukana, jotka ovat heti käytettävissä. Saat datan kuvauksen kirjoittamalla `?datan_nimi`. Aluksi käytämme dataa `?mtcars`.
+
+```{r kuvaamtcars}
+?mtcars
+head(mtcars)
+```
+
+Samat datat + paljon muuta löytyy Vincent ylläpitämältä [Rdatasets](https://vincentarelbundock.github.io/Rdatasets/datasets.html)-sivustolta, josta voimme ladata esimerkiksi saman `mtcars`-datan komennolla 
+
+```{r lataamtcars}
+d <- read.csv("https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv",
+                   stringsAsFactors = FALSE)
+head(d)
+```
+
+
+
+# Ohjelmistot
+
+
+Kurssilla käytettävät ohjelmistot ovat poikkeuksetta [vapaita](https://fi.wikipedia.org/wiki/Vapaa_ohjelmisto) ja [avoimen lähdekoodin ohjelmistoja](https://fi.wikipedia.org/wiki/Avoin_l%C3%A4hdekoodi), joita voi käyttää sekä Windowsissa, OSX:ssä että eri linux-jakeluissa.
+
+Ohjelmistoympäristö on perusteltu ja käyty läpi hyvin täällä: [Jenny Bryan and the STAT 545 TAs: Happy Git and GitHub for the useR](http://happygitwithr.com/)
+
+## R
+
+
+
+### R Studio
+
+- RStudio Full Tour <https://vimeo.com/97378167>
+
+### Rmarkdown
+
+- What is R Markdown? <https://vimeo.com/177254549>
+- Communicate-better-with-R-Markdown  <https://vimeo.com/176881928>
+- Getting started with R Markdown  <https://vimeo.com/142172484>
+
+### git
+
+- git <https://git-scm.com/>
+- The Basics of Git and GitHub <https://www.youtube.com/watch?v=U8GBXvdmHT4>
+- Lear Git in 20 minutes <https://www.youtube.com/watch?v=Y9XZQO1n_7c>
+- RStudio & git/github Demonstration <https://vimeo.com/119403806>
+
+
+### shell
+
+- Shell script <https://en.wikipedia.org/wiki/Shell_script>
+
+### Github-koodinjakopalvelu
+
+[Github](https://github.com) ei ole ohjelmisto, vaan kenties suosituin lähdekoodin jakamisen ja yhdessä ohjelmoimisen (social coding) mahdollistava verkkopalvelu. Kurssille osallistuminen edellyttää Github:iin rekisteröitymistä.
+
+## Ympäristöt
+
+### Pilvessä
+
+Kurssin ensisijainen laskentaympäristö on [Tieteen tietotekniikan keskuksen (CSC)](http://csc,fi) *Pouta Blueprints* palvelimilla, joita opiskelijat voivat käyttää haka-verkon kautta pelkkää selainta käyttöen joko mikroluokkien koneilla tai omalla koneella.
+
+
+## Paikalliset asennukset omille koneille
+
+Kurssin edetessä
+
+
+
+
+# Versiohallinta
+
+
+
+
+# Kotitehtävä
+
+
+
+
+
+
+
