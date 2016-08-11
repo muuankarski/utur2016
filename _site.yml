@@ -1,6 +1,6 @@
 name: "kela_r_help"
 navbar:
-  title: "Soveltavan data-analyysin perusteet R-kielellä SOSI1225 A.5 (3 op)"
+  title: "Soveltavan data-analyysin perusteet R-kielellä"
   type: inverse
   left:
     - text: "Kurssin sisältö"

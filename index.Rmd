@@ -18,11 +18,13 @@ Kurssilla opitaan *tidy data* -lähestymistavan ohella myös ohjelmistokehitykse
 
 | aika | paikka | materiaalit | kotitehtävät |
 | ---  | ----   | ----        | ----         |
-| 21. syyskuuta | Sali X | [Johdanto, ohjelmistot ja versiohallinta](content_1_intro.html)          | [kotitehtava](content_1_intro.html#kotitehtava)       |
-| 21. syyskuuta | Sali X | [Datan tuominen ja siivoaminen](content_2_import_tidy.html)              | [kotitehtava](content_2_import_tidy.html#kotitehtava)      |
-| 22. syyskuuta | Sali X | [Datan muokkaaminen](content_3_transform.html)                           | [kotitehtava](content_3_transform.html#kotitehtava)   |
-| 22. syyskuuta | Sali X | [Datan visualisoiminen ja mallintaminen](content_4_visualise_model.html) | [kotitehtava](content_4_visualise_model.html#kotitehtava)   |
-| 22. syyskuuta | Sali X | [Tulosten raportointi](content_5_communicate.html)                       | [kotitehtava](content_5_communicate.html#kotitehtava) |
+| 21. syyskuuta | Sali X | [Johdanto, ohjelmistot ja versiohallinta](content_1_intro.html)          | [kotitehtava](./kotitehtavat/kotitehtava_1.R)       |
+| 21. syyskuuta | Sali X | [Datan tuominen ja siivoaminen](content_2_import_tidy.html)              | [kotitehtava](./kotitehtavat/kotitehtava_2.R)      |
+| 22. syyskuuta | Sali X | [Datan muokkaaminen](content_3_transform.html)                           | [kotitehtava](./kotitehtavat/kotitehtava_3.R)   |
+| 22. syyskuuta | Sali X | [Datan visualisoiminen ja mallintaminen](content_4_visualise_model.html) | [kotitehtava](./kotitehtavat/kotitehtava_4.R)   |
+| 22. syyskuuta | Sali X | [Tulosten raportointi](content_5_communicate.html)                       | [kotitehtava](./kotitehtavat/kotitehtava_5.R) |
+
+Lataa kurssiaikataulu omaan kalenteriin: [utur2016.ical](utur2016.ical)
 
 ## Lähdekoodi
 
