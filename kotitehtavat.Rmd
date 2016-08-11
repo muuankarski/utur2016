@@ -1,12 +1,24 @@
 ---
 title: "Ohjeita kotitehtäviin"
-output: 
-  html_document: 
-    toc: true
-    toc_float: true
-    number_sections: yes
-    code_folding: show
+output: html_document
 ---
 
-# Ohjeita kotitehtäviin
 
+Kullekin luennolle on oma kotitehtävänsä, joka käytännössä on r-skripti, jossa on ohjeita, koodia sekä kysymyksiä. Opiskelijan tulee vastata kysymyksiin koodipätkällä. 
+
+Esimerkiksi jos kysymykseen *Miten saat konsoliin/päätteeseen näkyville datan* `aineisto` *kuusi ensimmäistä riviä?*, olisi oikea vastaus joku seuraavista:
+
+- `head(aineisto)`
+- `aineisto[1:6,]`
+- `slice(aineisto, 1:6)`
+
+Kotitehtävät tulee palauttaa seuraavaan luentokertaan mennessä 
+
+
+| Luennon pvm | linkki kotitehtäviin
+| ---  | ------------------------------  |
+| 12.9. | [kotitehtava_1.R](https://raw.githubusercontent.com/muuankarski/utur2016/master/kotitehtavat/kotitehtava_1.R) |
+| 19.9. | [kotitehtava_2.R](https://raw.githubusercontent.com/muuankarski/utur2016/master/kotitehtavat/kotitehtava_2.R) |
+| 26.9. | [kotitehtava_3.R](https://raw.githubusercontent.com/muuankarski/utur2016/master/kotitehtavat/kotitehtava_3.R) |
+| 3.10. | [kotitehtava_4.R](https://raw.githubusercontent.com/muuankarski/utur2016/master/kotitehtavat/kotitehtava_4.R) |
+| 10.10.| [kotitehtava_5.R](https://raw.githubusercontent.com/muuankarski/utur2016/master/kotitehtavat/kotitehtava_5.R) |

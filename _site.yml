@@ -1,6 +1,6 @@
 name: "kela_r_help"
 navbar:
-  title: "Soveltavan data-analyysin perusteet R-kielellä"
+  title: "SOSI1225 A.5"
   type: inverse
   left:
     - text: "Kurssin sisältö"
@@ -33,8 +33,8 @@ navbar:
   right:
     - icon: fa-github-alt
       href: https://github.com/muuankarski/utur2016
-    - icon: fa-info
-      href: http://markuskainu.fi
+    - icon: fa-envelope
+      href: mailto:markuskainu@gmail.com?Subject=Kysymys%20utur2016%20kurssista%20-%20HUOMAA%20KYSYMYKSET%20MENEVÄT%20UKK%20SIVULLE
 output:
   html_document:
     theme: united
