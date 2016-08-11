@@ -6,34 +6,33 @@ navbar:
     - text: "Kurssin sisältö"
       icon: fa-list-alt
       menu:
-        - text: "Johdanto"
+        - text: "Johdanto, ohjelmistot ja versiohallinta"
           icon: fa-bolt
           href: content_1_intro.html
-        - text: "Datalähteet ja datan tuominen ja vieminen"
+        - text: "Datalähteet, datan tuominen ja vieminen ja datan siivoaminen"
           icon: fa-exchange
-          href: content_2_import.html
-        - text: "Datan siivoaminen"
-          icon: fa-sort-amount-asc
-          href: content_3_tidy.html
-        - text: "Datan muokkaus"
+          href: content_2_import_tidy.html
+        - text: "Datan muokkaaminen"
           icon: fa-random
-          href: content_4_transform.html
-        - text: "Datan visualisoiminen"
+          href: content_3_transform.html
+        - text: "Datan visualisoiminen ja mallintaminen"
           icon: fa-area-chart
-          href: content_5_visualise.html          
-        - text: "Datan mallintaminen"
-          icon: fa-tree
-          href: content_6_model.html
-        - text: "Tulosten kommunikoiminen/raportoiminen"
+          href: content_4_visualise_model.html          
+        - text: "Tulosten raportoiminen"
           icon: fa-bullhorn
-          href: content_7_communicate.html   
+          href: content_5_communicate.html   
     - text: "UKK"
-      icon: fa-cogs
+      icon: fa-question
+      href: ukk.html
+    - text: "Kotitehtävät"
+      icon: fa-pencil-square-o
       href: ukk.html
 #    - text: "Videos from useR2016"
 #      icon: fa-file-video-o
 #      href: videos.html
   right:
+    - icon: fa-github-alt
+      href: https://github.com/muuankarski/utur2016
     - icon: fa-info
       href: http://markuskainu.fi
 output:
